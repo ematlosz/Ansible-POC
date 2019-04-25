@@ -7,6 +7,6 @@
    - gcp_storage_bucket:
        name: ansible-storage-module
        project: "cp-esc-commvault-dev"
-       auth_kind: "service_account"
+       auth_kind: "serviceaccount"
        state: present
        
