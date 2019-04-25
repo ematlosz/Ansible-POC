@@ -1,0 +1,5 @@
+- name: Create an empty bucket
+  gc_storage:
+    bucket: mybucket-awholebunchanumbers144124
+    mode: create
+  
