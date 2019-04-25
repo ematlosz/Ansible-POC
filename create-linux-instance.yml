@@ -10,7 +10,7 @@
       image: "{{ image_name }}"
       state: present
       disk_size: 32
-      project_id: "{{ gcp_project_id }}"
+#      project_id: "{{ gcp_project_id }}"
      register: gce
      
    - name: Save host data
