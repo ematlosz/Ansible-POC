@@ -10,8 +10,8 @@
       image: "{{ image_name }}"
       state: present
       disk_size: 32
-      network: vpc-shared-hybrid-dev-001
-      subnetwork: shared-dev-east4-linux
+#      network: vpc-shared-hybrid-dev-001
+      subnetwork: "projects/colpal-shared-resources-dev/regions/us-east1/subnetworks/shared-hybrid-dev-east254"
 #      project_id: "{{ gcp_project_id }}"
      register: gce
      
