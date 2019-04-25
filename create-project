@@ -1,0 +1,10 @@
+- name: create a project
+  gcp_resourcemanager_project:
+    name: "{{gcp_project_name}}"
+#   id: alextest-{{ 10000000000 | random }}
+#    auth_kind: serviceaccount
+#    service_account_file: "/tmp/auth.pem"
+    parent:
+      type: organization
+      id: 775078138164
+    state: present
